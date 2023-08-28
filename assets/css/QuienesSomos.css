@@ -122,9 +122,16 @@ background-color: rgba(144, 245, 119, 0.5);
 .section-header h3 span{
   background-color: rgba(141, 255, 146, 0.452);
   }
-@media (max-width: 767px) {
+@media (max-width: 1480px) {
   .section-header p {
     width: 100%;
+    height: 100%;
+  }
+  .fondo-box{
+   max-width: 520px;
+   height: 230px;
+   margin: 20px;
+   padding: 0;
   }
 }
   

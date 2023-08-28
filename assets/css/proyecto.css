@@ -42,7 +42,7 @@ section {
   font-size: 30px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .section-header p {
     width: 100%;
   }
@@ -50,6 +50,9 @@ section {
     width: 500px;
     margin-left: -20px;
     
+  }
+  .proyecto-container{
+    padding-left: 30%;
   }
   #outset {
     width: 50px;

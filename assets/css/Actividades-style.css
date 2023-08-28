@@ -23,7 +23,7 @@
 .card{
     top: -20%;
     width: 30rem; 
-    height: 43rem;
+    height: 45rem;
     background-color: rgba(181, 101, 235, 0.349);
     border: 10px rgb(123, 196, 162) solid;
     border-radius: 20px;
@@ -48,27 +48,27 @@
 .img-portada{
     width: 100%;
 }
-@media (max-width: 767px) {
-    .s-p{
-        left: 20%;
-    }
-    .s-e{
-        left: 20%;
-    }
-    .img-portada{
-        width: 1000px;
-    }
-  }
 
-@media (max-width: 1230px) {
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1469px) {
     .s-p{
         left: 0;
+
     }
     .s-e{
         left: 0%;
     }
+    
     .card{
-        width: 30rem; 
-        height: 50rem;
+        height: 60rem;
     }
 }
