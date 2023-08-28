@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400;1,700&display=swap');
+*{
+    font-family: 'Montserrat';
+}
+.img{
+    border-radius:23x 10px 15px 20px;
+}
+.img-cuerpo{
+    padding-top: 30px;
+}
+.section-header{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+#t-req{
+    background-color: rgb(161, 94, 187);
+    padding:0 20 0 20;
+    text-align: left;
+}
+#t-req h6{
+    font-size: 20px;
+    color: rgb(255, 228, 194);
+    font-weight: 500;
+}
+.sub{
+    text-align: left;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(104, 134, 216);
+}
+.contenedor{
+    text-align: left;
+}
+.contenedor-todo{
+    padding-left: 20%;
+    padding-top: -20px;
+    background-image: url(../img/logoGC175x178-modified.png);
+}
+input{
+    padding-left: 50px;
+}
+
+h1, form{
+    font-weight: 700;
+    color: rgb(241, 182, 109);
+}
+h1{
+    font-size: 4rem;
+}
+.form-select{
+    color: rgb(255, 228, 194);
+    font-size: 20px;
+}
+h4{
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: rgb(199, 185, 168);
+}
+.boton{
+    border: 1px solid black;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgba(160, 182, 160, 0.582);
+    margin: 10px;
+    align-items: center;
+}
+.boton:hover{
+    background-color: red;
+}
+@media (max-width: 767px) {
+    body{
+        width: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+

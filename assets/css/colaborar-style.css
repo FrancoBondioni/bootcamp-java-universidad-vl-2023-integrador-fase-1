@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
+*{
+  font-family: 'Oswald';
+  color: antiquewhite;
+}
+main{
+  background-image: url(../img/logoGC175x178-modified.png);
+  
+}
+.container{
+  background: linear-gradient(rgb(171, 255, 169), rgb(134, 145, 240));
+}
+.list-group{
+  border: 1px solid rgb(255, 210, 210);
+  border-radius: 30px 30px 30px 30px ;
+}
+.list-group-item{
+  background-image: url(../img/colaborar/donar.jpg);
+}
+.icon-donacion{
+  padding:15%;
+}
+.container {
+  max-width: 960px;
+}
+.montos{
+  text-align: center;
+}
+.contenedor{
+  padding: 50px;
+}
+.btn{
+  font-weight: 700;
+}
+.form-check .btn{
+  background-color: rgba(156, 115, 196, 0.884);
+
+  margin: 10px;
+}
+.form-check .btn:hover{
+  background-color: pink;
+}
+.form-check .button_slide {
+  color: #29d413;
+  display: inline-block;
+  font-family: 'Roboto';
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #cf459a1f;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+.contenedor-cabecera{
+  background-image: url(../img/facebook/home-lg.jpg);
+}
+#titulo, #subtitulo{
+  color: rgb(248, 211, 165);
+  background-color: rgba(105, 54, 116, 0.5);
+}
+#titulo{
+  font-size: 40px;
+  font-weight: 700;
+}
+#subtitulo{
+  font-size: 20px;
+}
+.text-monto{
+  font-weight: 600;
+  font-size: 40px;
+  color: bisque;
+  text-shadow: rgb(182, 0, 121) 1px 1px 10px;
+}
+.form-check-label{
+  font-size: 15px;
+}
+form{
+  font-weight: 600;
+  font-size: 20px;
+}
+#boton_enviar{
+  background-color: rgb(132, 250, 211);
+  color: rgb(226, 168, 43);
+}
+#boton_enviar:hover{
+  background-color: rgba(233, 43, 233, 0.61);
+}
+.datos-pagos{
+  padding-top: 20px;
+  font-size: 700;
+  font-size: 30px;
+  color: rgb(94, 143, 235);
+}
+
+

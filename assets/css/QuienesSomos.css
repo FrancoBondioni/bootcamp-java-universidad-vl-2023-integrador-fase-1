@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,100;1,300;1,600;1,700&display=swap');
+*{
+    font-family: 'Montserrat';
+}
+#services {
+    padding: 30px 0 40px 0;
+    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 4px;
+    text-align: center;
+  }
+  #services .box {
+    max-width: 500px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+    margin: 0 10px 30px 10px;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #services .icon {
+    position: absolute;
+    left: -15px;
+    top: calc(50% - 32px);
+  }
+  
+  #services .icon i {
+    font-size: 64px;
+    line-height: 0;
+    transition: 0.5s;
+  }
+  
+  #services .title {
+    margin-left: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  
+  #services .title a {
+    font-weight: 700;
+    color: #2355f7;
+  }
+  
+  #services .box:hover .title a {
+    color: transparent;
+  }
+  #services .box:hover .description {
+    color: transparent;
+  }
+  #services .description {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 22px;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+  }
+  .imagen-fondo-header{
+    background-image: url(../img/logoGC175x178-modified.png);
+    max-width: 100%;
+  }
+ .fondo-box .box:hover{
+   background-color: rgb(246, 215, 247);
+  }
+  .fondo-box{
+  background-color: none;
+  }
+  #b1:hover{
+    background-image: url(../img/QuienesSomos/ninos_1.jpg);
+  }
+  #b2:hover{
+    background-image: url(../img/QuienesSomos/ninos_2.jpg);
+  }
+  #b3:hover{
+    background-image: url(../img/QuienesSomos/ninos_3.jpg);
+  }
+  #b4:hover{
+    background-image: url(../img/QuienesSomos/ninos_4.jpg);
+  }
+  #b5:hover{
+    background-image: url(../img/QuienesSomos/ninos_5.jpg);
+  }
+  #b6:hover{
+    background-image: url(../img/QuienesSomos/ninos_6.jpg);
+  }
+  #b7:hover{
+    background-image: url(../img/QuienesSomos/ninos_7.jpg);
+  }
+section {
+  overflow: hidden;
+}
+  
+.section-header h3 {
+  font-size: 80px;
+  color: #283d50;
+  text-align: center;
+  font-weight: 900;
+  position: relative;
+}
+  
+.section-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgb(38, 73, 231);;
+  padding-bottom: 60px;
+  color: #181414;
+  width: 50%;
+}
+.section-header p span{
+background-color: rgba(144, 245, 119, 0.5);
+}
+.section-header h3 span{
+  background-color: rgba(141, 255, 146, 0.452);
+  }
+@media (max-width: 767px) {
+  .section-header p {
+    width: 100%;
+  }
+}
+  
+
+
